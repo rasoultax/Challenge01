@@ -10,7 +10,12 @@ namespace Challenge01
     {
         static void Main(string[] args)
         {
-          
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Challenge01");  
+            }
+        Console.WriteLine("End!");
+        string n = Console.ReadLine();
         }
     }
 }
